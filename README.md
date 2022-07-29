@@ -2,7 +2,7 @@
 # Habit Tracker app
 
 This is the basic project for displaying all the Habits list Which is used to store in redux and you can also update status of habit. 
-
+Demo :- https://piyushhawq.github.io/Habit-Tracker/
 
 
 
@@ -16,7 +16,7 @@ This is the basic project for displaying all the Habits list Which is used to st
 Clone the project
 
 ```bash
-  git clone https://github.com/niteenkum/habit-tracker
+  git clone https://github.com/piyushhawq/Habit-Tracker-React
 ```
 
 Go to the project directory
