@@ -1,0 +1,31 @@
+// This contain the background of the card
+.card-bg{
+background-image: url(../Assests/progress-bg.png);
+border-radius: 30px;
+}
+
+// It is the classes used for tabbar
+.tab-bar{
+    background: #ffff;
+box-shadow: 0px -4px 16px rgba(0, 0, 0, 0.07);
+@apply h-10 w-full rounded-t-2xl flex justify-evenly;
+}
+
+// It shows the history of today on homepage
+.day-history{
+    @apply h-12 rounded-lg p-2 flex items-center justify-between mt-2;
+    background: linear-gradient(129.7deg, rgba(255, 239, 238, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+backdrop-filter: blur(12px);
+
+// This is the status of the day.
+.status{
+    @apply h-10 w-14 rounded-xl border border-black flex items-center justify-center;
+    background: #FFFFFF;
+border: 1px solid rgba(179, 193, 205, 0.4);
+   &.active{
+    @apply border-none;
+    background: linear-gradient(129.7deg, rgba(124, 223, 205, 0.6) -9.69%, rgba(65, 25, 226, 0.4) 114.23%);
+    backdrop-filter: blur(12px);
+   }
+}
+}

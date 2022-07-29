@@ -1,0 +1,32 @@
+// This class contain the classes for customizing bacground f homepage and mobile view between that where all the habits are displayed.
+
+.home-page {
+  background-image: url("../Assests/homepage.jpg");
+  background-size: cover;
+  @apply min-h-screen;
+
+  .mobile-design {
+    height: 80vh;
+    width: 350px;
+    background: linear-gradient(
+      167.27deg,
+      #ffffff -5.94%,
+      rgba(247, 248, 251, 0.19) 103.62%
+    );
+    backdrop-filter: blur(102px);
+    border-radius: 40px;
+    // This css are used for pending task on the homepage.
+    .card-for-pending-tasks {
+      @apply h-44 overflow-hidden rounded-2xl;
+      background: url(../Assests/home-page-habbit-card.png);
+      background-size:cover;
+
+    }
+
+    // This css are used for progress card on the top of the homepage.
+    .progress-card-shadow-design {
+        @apply h-[60%] w-full rounded-t-3xl bg-white;
+        box-shadow: 0px -10px 32px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
